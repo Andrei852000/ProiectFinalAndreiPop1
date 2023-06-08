@@ -13,7 +13,7 @@ public class BasePage {
 
     private String baseUrl = "https://www.lambdatest.com/selenium-playground/";
 
-    public BasePage(){
+    public BasePage() {
 
     }
 
@@ -27,10 +27,13 @@ public class BasePage {
         driver = new ChromeDriver();
         driver.get(baseUrl);
     }
-    @AfterMethod
-    public void tearDown() {driver.quit();
 
-     }
+    @AfterMethod
+    public void tearDown() {
+        //driver.quit();
 
     }
+}
+
+
 

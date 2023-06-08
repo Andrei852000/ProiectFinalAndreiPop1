@@ -6,7 +6,7 @@ public class CheckboxDemo extends BasePage {
 
     public CheckboxDemo(WebDriver driver){super(driver);}
 
-    By SingleCheckbox = By.id("IsAgeSelected");
+    By SingleCheckbox = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[1]/div[2]/div[1]/label/input");
 
     public void clickOnSingleCheckbox(){ driver.findElement(SingleCheckbox).click();}
     By FirstCheckboxOption = By.id("ex1-check1");
@@ -27,6 +27,6 @@ public class CheckboxDemo extends BasePage {
 
     By CheckAllOption = By.id("box");
 
-    public void clickOnSingleCheckAllOption(){ driver.findElement(CheckAllOption).click();}
+    public void clickOnCheckAllOption(){ driver.findElement(CheckAllOption).click();}
 
 }
