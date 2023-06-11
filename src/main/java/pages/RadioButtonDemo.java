@@ -15,10 +15,10 @@ public class RadioButtonDemo extends BasePage {
     By Age0to5 = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[2]/div/div/div[1]/div[2]/label[1]/input");
     public void clickOnAge0to5(){driver.findElement(Age0to5).click();}
 
-    By Age5to15 = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[2]/div/div/div[1]/div[2]/label[2]");
+    By Age5to15 = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/div/div/div[1]/div[2]/label[2]");
     public void clickOnAge5to15(){driver.findElement(Age5to15).click();}
 
-    By Age15to50 = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[2]/div/div/div[1]/div[2]/label[3]");
+    By Age15to50 = By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div[3]/div/div/div[1]/div[2]/label[3]");
     public void clickOnAge15to50(){driver.findElement(Age15to50).click();}
 
 
